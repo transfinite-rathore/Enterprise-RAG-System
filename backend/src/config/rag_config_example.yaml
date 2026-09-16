@@ -1,0 +1,35 @@
+
+
+
+ingestion:
+  collection_name: RAG10
+  chunk_size: 600
+  chunk_overlap: 100
+  logging_file_path: ingestion1.log
+  dense_vector_name: dense
+  sparse_vector_name: sparse
+  dense_vector_size: 384       # Added: Required for dense vectors (e.g., OpenAI is 1536)
+  dense_vector_distance: Cosine # Added: Usually COSINE, DOT, or EUCLID
+  #search_mode: HYBRID # Added: Usually HYBRID, DENSE, SPARSE
+
+paths:
+  dense_model_path: EnterpriseRAG\backend\src\models\bge-small-en-v1.5
+  sparse_model_path: EnterpriseRAG\backend\src\models\sparse_encoder
+  cross_encoder_path: EnterpriseRAG\backend\src\models\CrossEncoder
+  podcast_data_file_path: EnterpriseRAG\data\datasets\harrywang\acquired-podcast-transcripts-and-rag-evaluation\versions\2\acquired-individual-transcripts\acquired-individual-transcripts
+  podcast_metadata_file_path: EnterpriseRAG\data\datasets\harrywang\acquired-podcast-transcripts-and-rag-evaluation\versions\2\acquired_metadata.csv
+
+llm:
+  active_provider: open_router
+  provider: 
+    open_router:
+      model_name: nvidia/nemotron-3-super-120b-a12b:free
+      temperature: 0.5
+      eval_temperature: 0.0
+
+
+
+models:
+  reranker: CrossEncoder
+  dense_embedding_model: bge-small-en-v1.5
+  sparse_embedding_model: splade-cocondenser

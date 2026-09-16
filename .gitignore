@@ -1,0 +1,15 @@
+
+.env*
+
+# Virtual Environments
+env*/
+
+# Data and Storage
+/data/
+
+
+# Local Configuration Files
+backend/src/config/rag_config.yaml
+backend/rag_results/*.json
+backend/src/models*
+backend/src/notebooks*

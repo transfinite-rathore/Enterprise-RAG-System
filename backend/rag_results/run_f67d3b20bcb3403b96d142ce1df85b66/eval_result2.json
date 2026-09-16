@@ -1,0 +1,24 @@
+{
+  "conversation_id": "6325ef81-c69e-46c0-b132-f12bf13e5228",
+  "reterived_chunks_count": 10,
+  "reranked_chunks_count": 5,
+  "retriever": {
+    "Precison@5": 0.2,
+    "Recall@5": 1.0,
+    "MeanReciprocalRank": 0.2,
+    "NDCG@5": 0.7420128817394331,
+    "hit_rate@5": 1.0
+  },
+  "reranker": {
+    "Precison@5": 0.2,
+    "Recall@5": 1.0,
+    "MeanReciprocalRank": 0.3333333333333333,
+    "NDCG@5": 0.8343228640807433,
+    "hit_rate@5": 1.0
+  },
+  "generator": {
+    "Faithfulness": -0.25,
+    "Correctness": 0.0,
+    "answer_relevance": 0.5
+  }
+}

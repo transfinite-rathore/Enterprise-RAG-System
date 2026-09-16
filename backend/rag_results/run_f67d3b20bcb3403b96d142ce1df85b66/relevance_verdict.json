@@ -1,0 +1,62 @@
+{
+  "ba77a37e-4513-4011-9f7a-e5fff008b249": {
+    "chunk_id": "ba77a37e-4513-4011-9f7a-e5fff008b249",
+    "is_relevant": false,
+    "reason": "Mentions SpaceX and hiring trends but provides no employee count.",
+    "score": 2
+  },
+  "ba9feac1-8e76-4b75-b69f-3b21a9b00be8": {
+    "chunk_id": "ba9feac1-8e76-4b75-b69f-3b21a9b00be8",
+    "is_relevant": false,
+    "reason": "Lists SpaceX among companies but gives no specific employee number.",
+    "score": 2
+  },
+  "4187991c-3dd0-410d-9c48-ddc0f4b7ab32": {
+    "chunk_id": "4187991c-3dd0-410d-9c48-ddc0f4b7ab32",
+    "is_relevant": false,
+    "reason": "Discusses hiring in the space industry generally, no SpaceX employee figure.",
+    "score": 2
+  },
+  "8320a8b7-3d8c-455b-9e0c-1d7bc75a808c": {
+    "chunk_id": "8320a8b7-3d8c-455b-9e0c-1d7bc75a808c",
+    "is_relevant": false,
+    "reason": "No mention of SpaceX or employee counts.",
+    "score": 1
+  },
+  "2d9b3262-fdaf-4120-bc7d-220469fa4f1c": {
+    "chunk_id": "2d9b3262-fdaf-4120-bc7d-220469fa4f1c",
+    "is_relevant": true,
+    "reason": "Provides SpaceX employee counts (4000 in Jan 2021, ~9000 later), related but not the exact 7000 figure.",
+    "score": 3
+  },
+  "b7815899-1ba1-49f3-90cb-f7a013ac8c2b": {
+    "chunk_id": "b7815899-1ba1-49f3-90cb-f7a013ac8c2b",
+    "is_relevant": false,
+    "reason": "Refers to a different company's employee count, not SpaceX.",
+    "score": 1
+  },
+  "764d2c3e-a4e0-4d36-8ed2-6219057f17b8": {
+    "chunk_id": "764d2c3e-a4e0-4d36-8ed2-6219057f17b8",
+    "is_relevant": false,
+    "reason": "Discusses talent influx; no SpaceX employee data.",
+    "score": 1
+  },
+  "99397bb6-c7a1-447c-a6b6-918630ab3a29": {
+    "chunk_id": "99397bb6-c7a1-447c-a6b6-918630ab3a29",
+    "is_relevant": false,
+    "reason": "Irrelevant to SpaceX or employee numbers.",
+    "score": 1
+  },
+  "a8d57dbf-75ac-4064-81cc-ca5658af6ff0": {
+    "chunk_id": "a8d57dbf-75ac-4064-81cc-ca5658af6ff0",
+    "is_relevant": false,
+    "reason": "About Nvidia employees, unrelated to SpaceX.",
+    "score": 1
+  },
+  "c2d6beab-b696-44a4-b300-ecb399ad5d44": {
+    "chunk_id": "c2d6beab-b696-44a4-b300-ecb399ad5d44",
+    "is_relevant": false,
+    "reason": "Mentions SpaceX importance but gives no employee count.",
+    "score": 2
+  }
+}

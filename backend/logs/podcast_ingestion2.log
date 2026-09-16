@@ -1,0 +1,1453 @@
+
+2026-09-10 01:32:36,735 | MainProcess | INFO | __main__ | Ingesting DATA LOAD_DATA
+2026-09-10 01:32:38,557 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG2
+2026-09-10 01:32:38,566 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=2116)
+2026-09-10 01:32:38,582 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=10412)
+2026-09-10 01:32:38,592 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=21900)
+2026-09-10 01:32:38,605 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-10 01:32:52,886 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-10 01:32:52,973 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-10 01:32:53,093 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-10 01:32:53,196 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-10 01:32:53,388 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-10 01:32:53,543 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-10 01:32:53,736 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-10 01:32:53,899 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-10 01:32:54,075 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-10 01:32:54,217 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-10 01:32:54,250 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-10 01:33:01,172 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:01,172 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 64
+2026-09-10 01:33:07,261 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:07,261 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 128
+2026-09-10 01:33:14,146 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:14,146 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 192
+2026-09-10 01:33:20,314 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:20,314 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 256
+2026-09-10 01:33:26,453 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:26,453 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 320
+2026-09-10 01:33:32,460 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:32,472 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 384
+2026-09-10 01:33:38,273 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:38,273 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 448
+2026-09-10 01:33:44,300 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:44,300 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 512
+2026-09-10 01:33:50,404 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:50,404 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 576
+2026-09-10 01:33:54,280 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:54,280 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 640
+2026-09-10 01:33:57,736 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:33:57,736 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 704
+2026-09-10 01:34:01,128 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:01,128 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 768
+2026-09-10 01:34:04,432 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:04,432 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 832
+2026-09-10 01:34:07,930 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:07,930 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 896
+2026-09-10 01:34:11,937 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:11,937 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 960
+2026-09-10 01:34:15,244 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:15,260 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1024
+2026-09-10 01:34:19,027 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:19,027 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1088
+2026-09-10 01:34:22,287 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:22,287 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1152
+2026-09-10 01:34:25,547 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:25,547 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1216
+2026-09-10 01:34:28,966 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:28,966 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1280
+2026-09-10 01:34:32,444 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:32,444 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1344
+2026-09-10 01:34:35,779 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:35,779 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1408
+2026-09-10 01:34:39,299 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:39,299 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1472
+2026-09-10 01:34:42,577 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:42,577 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1536
+2026-09-10 01:34:46,096 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:46,096 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1600
+2026-09-10 01:34:49,499 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:49,511 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1664
+2026-09-10 01:34:52,950 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:52,950 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1728
+2026-09-10 01:34:56,290 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:56,290 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1792
+2026-09-10 01:34:59,595 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:34:59,595 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1856
+2026-09-10 01:35:03,074 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:03,074 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1920
+2026-09-10 01:35:06,583 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:06,583 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 1984
+2026-09-10 01:35:10,003 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:10,003 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2048
+2026-09-10 01:35:13,516 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:13,516 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2112
+2026-09-10 01:35:16,967 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:16,967 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2176
+2026-09-10 01:35:21,070 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:21,070 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2240
+2026-09-10 01:35:24,450 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:24,450 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2304
+2026-09-10 01:35:28,034 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:28,034 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2368
+2026-09-10 01:35:31,523 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:31,523 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2432
+2026-09-10 01:35:34,924 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:34,924 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2496
+2026-09-10 01:35:38,341 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:38,341 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2560
+2026-09-10 01:35:41,960 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:41,960 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2624
+2026-09-10 01:35:45,428 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:45,428 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2688
+2026-09-10 01:35:48,643 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:48,643 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2752
+2026-09-10 01:35:52,230 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:52,230 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2816
+2026-09-10 01:35:55,834 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:55,834 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2880
+2026-09-10 01:35:59,160 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:35:59,160 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 2944
+2026-09-10 01:36:02,684 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:02,684 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3008
+2026-09-10 01:36:06,087 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:06,087 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3072
+2026-09-10 01:36:09,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:09,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3136
+2026-09-10 01:36:13,128 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:13,128 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3200
+2026-09-10 01:36:17,048 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:17,048 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3264
+2026-09-10 01:36:20,728 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:20,728 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3328
+2026-09-10 01:36:24,344 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:24,344 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3392
+2026-09-10 01:36:28,007 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:28,009 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3456
+2026-09-10 01:36:31,593 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:31,593 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3520
+2026-09-10 01:36:34,917 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:34,917 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3584
+2026-09-10 01:36:38,473 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:38,473 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3648
+2026-09-10 01:36:41,888 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:41,888 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3712
+2026-09-10 01:36:45,418 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:45,418 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3776
+2026-09-10 01:36:49,527 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:49,527 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3840
+2026-09-10 01:36:53,598 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:53,598 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3904
+2026-09-10 01:36:58,410 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:36:58,410 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 3968
+2026-09-10 01:37:02,769 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:02,769 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4032
+2026-09-10 01:37:07,112 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:07,112 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4096
+2026-09-10 01:37:12,093 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:12,093 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4160
+2026-09-10 01:37:19,860 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:19,860 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4224
+2026-09-10 01:37:24,415 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:24,415 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4288
+2026-09-10 01:37:28,836 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:28,836 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4352
+2026-09-10 01:37:32,943 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:32,943 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4416
+2026-09-10 01:37:36,627 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:36,627 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4480
+2026-09-10 01:37:40,221 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:40,221 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4544
+2026-09-10 01:37:43,963 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:43,963 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4608
+2026-09-10 01:37:47,633 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:47,633 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4672
+2026-09-10 01:37:51,222 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:51,222 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4736
+2026-09-10 01:37:54,640 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:54,640 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4800
+2026-09-10 01:37:58,063 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:37:58,063 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4864
+2026-09-10 01:38:01,361 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:01,361 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4928
+2026-09-10 01:38:04,703 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:04,703 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 4992
+2026-09-10 01:38:08,094 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:08,094 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5056
+2026-09-10 01:38:11,646 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:11,646 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5120
+2026-09-10 01:38:15,051 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:15,051 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5184
+2026-09-10 01:38:18,596 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:18,596 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5248
+2026-09-10 01:38:22,085 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:22,085 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5312
+2026-09-10 01:38:25,488 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:25,488 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5376
+2026-09-10 01:38:29,108 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:29,108 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5440
+2026-09-10 01:38:32,809 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:32,809 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5504
+2026-09-10 01:38:36,511 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:36,511 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5568
+2026-09-10 01:38:39,993 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:39,993 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5632
+2026-09-10 01:38:43,420 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:43,420 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5696
+2026-09-10 01:38:47,108 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:47,108 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5760
+2026-09-10 01:38:50,818 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:50,818 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5824
+2026-09-10 01:38:54,427 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:54,427 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5888
+2026-09-10 01:38:57,878 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:38:57,878 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 5952
+2026-09-10 01:39:01,557 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:01,557 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6016
+2026-09-10 01:39:05,259 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:05,259 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6080
+2026-09-10 01:39:08,580 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:08,580 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6144
+2026-09-10 01:39:11,968 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:11,968 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6208
+2026-09-10 01:39:15,189 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:15,189 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6272
+2026-09-10 01:39:18,553 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:18,553 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6336
+2026-09-10 01:39:22,045 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:22,045 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6400
+2026-09-10 01:39:25,758 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:25,758 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6464
+2026-09-10 01:39:29,411 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:29,411 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6528
+2026-09-10 01:39:33,177 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:33,177 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6592
+2026-09-10 01:39:36,750 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:36,750 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6656
+2026-09-10 01:39:40,618 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:40,618 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6720
+2026-09-10 01:39:44,737 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:44,737 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6784
+2026-09-10 01:39:48,475 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:48,477 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6848
+2026-09-10 01:39:52,207 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:52,207 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6912
+2026-09-10 01:39:55,639 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:55,639 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 6976
+2026-09-10 01:39:59,036 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:39:59,036 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7040
+2026-09-10 01:40:02,520 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:02,520 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7104
+2026-09-10 01:40:06,076 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:06,076 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7168
+2026-09-10 01:40:09,479 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:09,479 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7232
+2026-09-10 01:40:12,974 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:12,974 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7296
+2026-09-10 01:40:16,927 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:16,927 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7360
+2026-09-10 01:40:20,439 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:20,450 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7424
+2026-09-10 01:40:23,807 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:23,807 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7488
+2026-09-10 01:40:27,285 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:27,285 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7552
+2026-09-10 01:40:30,988 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:30,988 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7616
+2026-09-10 01:40:34,509 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:34,509 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7680
+2026-09-10 01:40:38,138 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:38,138 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7744
+2026-09-10 01:40:41,597 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:41,597 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7808
+2026-09-10 01:40:44,986 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:44,986 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7872
+2026-09-10 01:40:48,320 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:48,320 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 7936
+2026-09-10 01:40:51,985 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:51,985 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8000
+2026-09-10 01:40:55,330 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:55,332 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8064
+2026-09-10 01:40:59,079 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:40:59,079 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8128
+2026-09-10 01:41:02,847 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:02,847 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8192
+2026-09-10 01:41:06,290 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:06,291 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8256
+2026-09-10 01:41:09,581 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:09,581 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8320
+2026-09-10 01:41:13,308 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:13,308 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8384
+2026-09-10 01:41:17,354 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:17,354 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8448
+2026-09-10 01:41:20,774 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:20,774 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8512
+2026-09-10 01:41:24,374 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:24,374 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8576
+2026-09-10 01:41:27,935 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:27,935 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8640
+2026-09-10 01:41:31,523 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:31,523 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8704
+2026-09-10 01:41:34,971 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:34,971 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8768
+2026-09-10 01:41:38,614 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:38,614 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8832
+2026-09-10 01:41:42,169 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:42,169 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8896
+2026-09-10 01:41:46,015 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:46,015 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 8960
+2026-09-10 01:41:49,348 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:49,348 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9024
+2026-09-10 01:41:53,497 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:53,497 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9088
+2026-09-10 01:41:57,436 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:41:57,436 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9152
+2026-09-10 01:42:00,917 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:00,917 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9216
+2026-09-10 01:42:04,459 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:04,459 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9280
+2026-09-10 01:42:07,841 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:07,841 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9344
+2026-09-10 01:42:11,387 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:11,387 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9408
+2026-09-10 01:42:14,972 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:14,972 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9472
+2026-09-10 01:42:18,738 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:18,738 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9536
+2026-09-10 01:42:22,252 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:22,252 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9600
+2026-09-10 01:42:25,936 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:25,936 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9664
+2026-09-10 01:42:29,678 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:29,678 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9728
+2026-09-10 01:42:33,424 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:33,437 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9792
+2026-09-10 01:42:37,096 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:37,096 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9856
+2026-09-10 01:42:40,843 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:40,843 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9920
+2026-09-10 01:42:44,228 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:44,228 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 9984
+2026-09-10 01:42:47,819 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:47,819 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10048
+2026-09-10 01:42:51,329 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:51,329 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10112
+2026-09-10 01:42:54,923 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:54,923 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10176
+2026-09-10 01:42:58,808 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:42:58,808 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10240
+2026-09-10 01:43:02,223 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:02,223 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10304
+2026-09-10 01:43:05,538 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:05,538 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10368
+2026-09-10 01:43:08,932 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:08,932 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10432
+2026-09-10 01:43:12,321 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:12,321 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10496
+2026-09-10 01:43:12,321 | Process-2 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-2 progress | Documents=20 | Chunks=3932
+2026-09-10 01:43:15,893 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:15,893 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10560
+2026-09-10 01:43:19,672 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:19,672 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10624
+2026-09-10 01:43:23,210 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:23,210 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10688
+2026-09-10 01:43:26,741 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:26,742 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10752
+2026-09-10 01:43:30,363 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:30,363 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10816
+2026-09-10 01:43:33,841 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:33,841 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10880
+2026-09-10 01:43:37,347 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:37,347 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 10944
+2026-09-10 01:43:40,897 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:40,897 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11008
+2026-09-10 01:43:44,530 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:44,530 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11072
+2026-09-10 01:43:48,132 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:48,132 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11136
+2026-09-10 01:43:48,148 | Process-3 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-3 progress | Documents=20 | Chunks=3918
+2026-09-10 01:43:51,458 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:51,458 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11200
+2026-09-10 01:43:54,905 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:54,905 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11264
+2026-09-10 01:43:58,120 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:43:58,120 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11328
+2026-09-10 01:44:01,664 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:01,664 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11392
+2026-09-10 01:44:01,672 | Process-4 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-4 progress | Documents=20 | Chunks=4201
+2026-09-10 01:44:05,757 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:05,757 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11456
+2026-09-10 01:44:09,295 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:09,295 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11520
+2026-09-10 01:44:12,687 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:12,687 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11584
+2026-09-10 01:44:16,415 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:16,415 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11648
+2026-09-10 01:44:20,066 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:20,066 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11712
+2026-09-10 01:44:23,750 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:23,750 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11776
+2026-09-10 01:44:27,196 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:27,196 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11840
+2026-09-10 01:44:30,789 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:30,789 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11904
+2026-09-10 01:44:34,349 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:34,349 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 11968
+2026-09-10 01:44:37,776 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:37,776 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12032
+2026-09-10 01:44:41,293 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:41,293 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12096
+2026-09-10 01:44:44,942 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:44,942 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12160
+2026-09-10 01:44:48,408 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:48,408 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12224
+2026-09-10 01:44:51,729 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:51,729 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12288
+2026-09-10 01:44:55,102 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:55,102 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12352
+2026-09-10 01:44:58,804 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:44:58,804 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12416
+2026-09-10 01:45:02,230 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:02,230 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12480
+2026-09-10 01:45:05,619 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:05,619 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12544
+2026-09-10 01:45:08,992 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:08,992 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12608
+2026-09-10 01:45:12,330 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:12,330 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12672
+2026-09-10 01:45:15,930 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:15,930 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12736
+2026-09-10 01:45:19,634 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:19,636 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12800
+2026-09-10 01:45:23,001 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:23,001 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12864
+2026-09-10 01:45:26,802 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:26,802 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12928
+2026-09-10 01:45:30,262 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:30,262 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 12992
+2026-09-10 01:45:33,972 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:33,972 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13056
+2026-09-10 01:45:37,333 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:37,333 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13120
+2026-09-10 01:45:40,604 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:40,604 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13184
+2026-09-10 01:45:44,135 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:44,135 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13248
+2026-09-10 01:45:47,877 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:47,877 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13312
+2026-09-10 01:45:51,593 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:51,593 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13376
+2026-09-10 01:45:55,245 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:55,245 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13440
+2026-09-10 01:45:58,669 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:45:58,669 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13504
+2026-09-10 01:46:02,321 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:02,321 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13568
+2026-09-10 01:46:05,952 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:05,952 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13632
+2026-09-10 01:46:09,545 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:09,545 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13696
+2026-09-10 01:46:13,883 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:13,899 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13760
+2026-09-10 01:46:17,598 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:17,598 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13824
+2026-09-10 01:46:20,977 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:20,977 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13888
+2026-09-10 01:46:24,265 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:24,265 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 13952
+2026-09-10 01:46:27,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:27,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14016
+2026-09-10 01:46:31,520 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:31,520 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14080
+2026-09-10 01:46:35,108 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:35,108 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14144
+2026-09-10 01:46:38,435 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:38,435 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14208
+2026-09-10 01:46:42,021 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:42,021 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14272
+2026-09-10 01:46:45,239 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:45,239 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14336
+2026-09-10 01:46:48,667 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:48,668 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14400
+2026-09-10 01:46:51,899 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:51,899 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14464
+2026-09-10 01:46:55,221 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:55,221 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14528
+2026-09-10 01:46:58,325 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:46:58,340 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14592
+2026-09-10 01:47:01,764 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:01,764 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14656
+2026-09-10 01:47:05,225 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:05,225 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14720
+2026-09-10 01:47:08,936 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:08,936 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14784
+2026-09-10 01:47:12,606 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:12,606 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14848
+2026-09-10 01:47:16,431 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:16,431 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14912
+2026-09-10 01:47:19,868 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:19,868 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 14976
+2026-09-10 01:47:23,469 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:23,469 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15040
+2026-09-10 01:47:27,027 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:27,027 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15104
+2026-09-10 01:47:30,413 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:30,413 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15168
+2026-09-10 01:47:33,941 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:33,955 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15232
+2026-09-10 01:47:37,376 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:37,376 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15296
+2026-09-10 01:47:40,741 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:40,741 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15360
+2026-09-10 01:47:44,004 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:44,004 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15424
+2026-09-10 01:47:47,468 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:47,468 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15488
+2026-09-10 01:47:50,870 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:50,870 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15552
+2026-09-10 01:47:54,196 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:54,196 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15616
+2026-09-10 01:47:57,639 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:47:57,639 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15680
+2026-09-10 01:48:00,965 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:00,965 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15744
+2026-09-10 01:48:04,302 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:04,302 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15808
+2026-09-10 01:48:07,670 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:07,670 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15872
+2026-09-10 01:48:11,074 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:11,074 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 15936
+2026-09-10 01:48:14,601 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:14,601 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16000
+2026-09-10 01:48:18,212 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:18,212 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16064
+2026-09-10 01:48:21,779 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:21,779 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16128
+2026-09-10 01:48:25,953 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:25,953 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16192
+2026-09-10 01:48:29,464 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:29,464 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16256
+2026-09-10 01:48:32,958 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:32,958 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16320
+2026-09-10 01:48:36,420 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:36,420 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16384
+2026-09-10 01:48:39,918 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:39,918 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16448
+2026-09-10 01:48:43,133 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:43,133 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16512
+2026-09-10 01:48:46,453 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:46,453 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16576
+2026-09-10 01:48:49,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:49,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16640
+2026-09-10 01:48:53,102 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:53,102 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16704
+2026-09-10 01:48:56,483 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:56,483 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16768
+2026-09-10 01:48:59,887 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:48:59,887 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16832
+2026-09-10 01:49:03,528 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:03,528 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16896
+2026-09-10 01:49:07,052 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:07,052 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 16960
+2026-09-10 01:49:10,752 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:10,752 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17024
+2026-09-10 01:49:14,330 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:14,330 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17088
+2026-09-10 01:49:18,164 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:18,178 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17152
+2026-09-10 01:49:21,862 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:21,862 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17216
+2026-09-10 01:49:25,522 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:25,522 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17280
+2026-09-10 01:49:29,269 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:29,270 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17344
+2026-09-10 01:49:32,807 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:32,807 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17408
+2026-09-10 01:49:36,224 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:36,224 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17472
+2026-09-10 01:49:39,920 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:39,920 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17536
+2026-09-10 01:49:43,591 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:43,591 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17600
+2026-09-10 01:49:46,944 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:46,944 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17664
+2026-09-10 01:49:50,189 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:50,189 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17728
+2026-09-10 01:49:53,952 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:53,952 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17792
+2026-09-10 01:49:57,274 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:49:57,274 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17856
+2026-09-10 01:50:00,755 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:00,755 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17920
+2026-09-10 01:50:04,017 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:04,017 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 17984
+2026-09-10 01:50:07,574 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:07,574 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18048
+2026-09-10 01:50:10,913 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:10,913 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18112
+2026-09-10 01:50:14,284 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:14,284 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18176
+2026-09-10 01:50:17,934 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:17,934 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18240
+2026-09-10 01:50:21,404 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:21,404 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18304
+2026-09-10 01:50:24,942 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:24,942 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18368
+2026-09-10 01:50:28,280 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:28,280 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18432
+2026-09-10 01:50:32,057 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:32,057 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18496
+2026-09-10 01:50:36,311 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:36,311 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18560
+2026-09-10 01:50:39,668 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:39,668 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18624
+2026-09-10 01:50:43,067 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:43,067 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18688
+2026-09-10 01:50:46,734 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:46,734 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18752
+2026-09-10 01:50:50,311 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:50,311 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18816
+2026-09-10 01:50:53,724 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:53,724 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18880
+2026-09-10 01:50:57,452 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:50:57,452 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 18944
+2026-09-10 01:51:00,892 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:00,892 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19008
+2026-09-10 01:51:04,542 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:04,542 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19072
+2026-09-10 01:51:07,937 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:07,937 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19136
+2026-09-10 01:51:11,342 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:11,342 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19200
+2026-09-10 01:51:14,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:14,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19264
+2026-09-10 01:51:18,351 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:18,351 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19328
+2026-09-10 01:51:21,877 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:21,877 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19392
+2026-09-10 01:51:25,403 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:25,416 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19456
+2026-09-10 01:51:28,976 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:28,976 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19520
+2026-09-10 01:51:32,615 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:32,615 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19584
+2026-09-10 01:51:36,175 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:36,175 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19648
+2026-09-10 01:51:39,811 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:39,811 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19712
+2026-09-10 01:51:43,195 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:43,195 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19776
+2026-09-10 01:51:46,819 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:46,819 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19840
+2026-09-10 01:51:50,206 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:50,206 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19904
+2026-09-10 01:51:53,744 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:53,744 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 19968
+2026-09-10 01:51:57,414 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:51:57,414 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20032
+2026-09-10 01:52:01,021 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:01,021 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20096
+2026-09-10 01:52:04,556 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:04,556 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20160
+2026-09-10 01:52:07,949 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:07,949 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20224
+2026-09-10 01:52:11,533 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:11,533 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20288
+2026-09-10 01:52:15,109 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:15,109 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20352
+2026-09-10 01:52:18,998 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:18,998 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20416
+2026-09-10 01:52:22,351 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:22,351 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20480
+2026-09-10 01:52:26,113 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:26,113 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20544
+2026-09-10 01:52:29,626 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:29,626 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20608
+2026-09-10 01:52:33,032 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:33,032 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20672
+2026-09-10 01:52:36,397 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:36,397 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20736
+2026-09-10 01:52:39,912 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:39,912 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20800
+2026-09-10 01:52:44,388 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:44,388 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20864
+2026-09-10 01:52:48,246 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:48,246 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20928
+2026-09-10 01:52:51,756 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:51,757 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 20992
+2026-09-10 01:52:55,035 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:55,035 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21056
+2026-09-10 01:52:58,499 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:52:58,499 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21120
+2026-09-10 01:53:01,950 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:01,950 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21184
+2026-09-10 01:53:05,429 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:05,429 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21248
+2026-09-10 01:53:08,843 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:08,843 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21312
+2026-09-10 01:53:12,173 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:12,173 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21376
+2026-09-10 01:53:15,711 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:15,711 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21440
+2026-09-10 01:53:19,050 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:19,050 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21504
+2026-09-10 01:53:22,344 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:22,344 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21568
+2026-09-10 01:53:25,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:25,697 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21632
+2026-09-10 01:53:29,276 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:29,276 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21696
+2026-09-10 01:53:32,610 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:32,610 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21760
+2026-09-10 01:53:35,932 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:35,932 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21824
+2026-09-10 01:53:39,395 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:39,395 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21888
+2026-09-10 01:53:42,786 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:42,786 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 21952
+2026-09-10 01:53:46,185 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:46,185 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22016
+2026-09-10 01:53:49,551 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:49,551 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22080
+2026-09-10 01:53:53,007 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:53,007 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22144
+2026-09-10 01:53:56,436 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:56,436 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22208
+2026-09-10 01:53:59,889 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:53:59,889 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22272
+2026-09-10 01:54:03,330 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:03,330 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22336
+2026-09-10 01:54:06,738 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:06,738 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22400
+2026-09-10 01:54:10,274 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:10,274 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22464
+2026-09-10 01:54:13,570 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:13,570 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22528
+2026-09-10 01:54:13,570 | Process-2 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-2 progress | Documents=40 | Chunks=7915
+2026-09-10 01:54:17,331 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:17,331 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22592
+2026-09-10 01:54:20,773 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:20,774 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22656
+2026-09-10 01:54:24,007 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:24,022 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22720
+2026-09-10 01:54:27,552 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:27,552 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22784
+2026-09-10 01:54:31,030 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:31,030 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22848
+2026-09-10 01:54:34,604 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:34,604 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22912
+2026-09-10 01:54:38,150 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:38,150 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 22976
+2026-09-10 01:54:41,644 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:41,644 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23040
+2026-09-10 01:54:45,045 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:45,045 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23104
+2026-09-10 01:54:48,653 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:48,667 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23168
+2026-09-10 01:54:52,052 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:52,052 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23232
+2026-09-10 01:54:56,359 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:56,375 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23296
+2026-09-10 01:54:56,377 | Process-3 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-3 progress | Documents=40 | Chunks=7953
+2026-09-10 01:54:59,828 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:54:59,828 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23360
+2026-09-10 01:55:03,606 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:03,606 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23424
+2026-09-10 01:55:06,978 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:06,978 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23488
+2026-09-10 01:55:10,550 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:10,550 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23552
+2026-09-10 01:55:13,949 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:13,965 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23616
+2026-09-10 01:55:17,716 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:17,716 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23680
+2026-09-10 01:55:21,132 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:21,132 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23744
+2026-09-10 01:55:24,435 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:24,435 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23808
+2026-09-10 01:55:27,888 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:27,888 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23872
+2026-09-10 01:55:31,442 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:31,442 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 23936
+2026-09-10 01:55:34,913 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:34,913 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24000
+2026-09-10 01:55:38,581 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:38,593 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24064
+2026-09-10 01:55:41,960 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:41,960 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24128
+2026-09-10 01:55:45,332 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:45,332 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24192
+2026-09-10 01:55:48,889 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:48,889 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24256
+2026-09-10 01:55:52,390 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:52,390 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24320
+2026-09-10 01:55:55,756 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:55,756 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24384
+2026-09-10 01:55:59,160 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:55:59,160 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24448
+2026-09-10 01:56:02,620 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:02,620 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24512
+2026-09-10 01:56:06,184 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:06,184 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24576
+2026-09-10 01:56:09,677 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:09,677 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24640
+2026-09-10 01:56:12,920 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:12,920 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24704
+2026-09-10 01:56:16,498 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:16,498 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24768
+2026-09-10 01:56:19,809 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:19,809 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24832
+2026-09-10 01:56:22,878 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:22,878 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24896
+2026-09-10 01:56:26,120 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:26,120 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 24960
+2026-09-10 01:56:29,581 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:29,581 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25024
+2026-09-10 01:56:32,876 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:32,876 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25088
+2026-09-10 01:56:36,297 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:36,297 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25152
+2026-09-10 01:56:39,819 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:39,819 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25216
+2026-09-10 01:56:43,569 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:43,583 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25280
+2026-09-10 01:56:47,189 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:47,189 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25344
+2026-09-10 01:56:50,810 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:50,810 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25408
+2026-09-10 01:56:54,353 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:54,353 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25472
+2026-09-10 01:56:57,867 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:56:57,867 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25536
+2026-09-10 01:57:01,374 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:01,374 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25600
+2026-09-10 01:57:05,669 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:05,669 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25664
+2026-09-10 01:57:09,300 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:09,300 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25728
+2026-09-10 01:57:12,915 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:12,916 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25792
+2026-09-10 01:57:16,657 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:16,657 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25856
+2026-09-10 01:57:20,294 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:20,294 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25920
+2026-09-10 01:57:23,852 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:23,852 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 25984
+2026-09-10 01:57:23,852 | Process-4 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-4 progress | Documents=40 | Chunks=9136
+2026-09-10 01:57:27,487 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:27,487 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26048
+2026-09-10 01:57:31,285 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:31,285 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26112
+2026-09-10 01:57:34,936 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:34,936 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26176
+2026-09-10 01:57:38,452 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:38,453 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26240
+2026-09-10 01:57:42,305 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:42,305 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26304
+2026-09-10 01:57:45,736 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:45,736 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26368
+2026-09-10 01:57:49,075 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:49,075 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26432
+2026-09-10 01:57:52,764 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:52,765 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26496
+2026-09-10 01:57:56,210 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:56,210 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26560
+2026-09-10 01:57:59,973 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:57:59,973 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26624
+2026-09-10 01:58:03,494 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:03,494 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26688
+2026-09-10 01:58:07,079 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:07,079 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26752
+2026-09-10 01:58:10,407 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:10,407 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26816
+2026-09-10 01:58:13,860 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:13,860 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26880
+2026-09-10 01:58:17,546 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:17,546 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 26944
+2026-09-10 01:58:21,101 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:21,101 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27008
+2026-09-10 01:58:24,551 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:24,551 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27072
+2026-09-10 01:58:27,980 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:27,980 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27136
+2026-09-10 01:58:31,621 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:31,621 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27200
+2026-09-10 01:58:35,071 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:35,071 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27264
+2026-09-10 01:58:38,752 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:38,752 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27328
+2026-09-10 01:58:42,149 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:42,149 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27392
+2026-09-10 01:58:45,767 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:45,767 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27456
+2026-09-10 01:58:49,430 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:49,430 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27520
+2026-09-10 01:58:53,077 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:53,077 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27584
+2026-09-10 01:58:56,891 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:58:56,892 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27648
+2026-09-10 01:59:00,529 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:00,529 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27712
+2026-09-10 01:59:04,007 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:04,007 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27776
+2026-09-10 01:59:07,510 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:07,510 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27840
+2026-09-10 01:59:11,289 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:11,289 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27904
+2026-09-10 01:59:15,906 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:15,906 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 27968
+2026-09-10 01:59:19,646 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:19,646 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28032
+2026-09-10 01:59:23,078 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:23,078 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28096
+2026-09-10 01:59:26,537 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:26,537 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28160
+2026-09-10 01:59:30,057 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:30,057 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28224
+2026-09-10 01:59:33,772 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:33,786 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28288
+2026-09-10 01:59:37,184 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:37,184 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28352
+2026-09-10 01:59:40,530 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:40,530 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28416
+2026-09-10 01:59:43,929 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:43,929 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28480
+2026-09-10 01:59:47,484 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:47,484 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28544
+2026-09-10 01:59:51,152 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:51,152 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28608
+2026-09-10 01:59:54,594 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:54,594 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28672
+2026-09-10 01:59:57,842 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 01:59:57,842 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28736
+2026-09-10 02:00:01,077 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:01,077 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28800
+2026-09-10 02:00:04,405 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:04,405 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28864
+2026-09-10 02:00:07,743 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:07,743 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28928
+2026-09-10 02:00:11,206 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:11,206 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 28992
+2026-09-10 02:00:14,515 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:14,515 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29056
+2026-09-10 02:00:18,373 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:18,373 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29120
+2026-09-10 02:00:21,814 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:21,814 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29184
+2026-09-10 02:00:25,376 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:25,376 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29248
+2026-09-10 02:00:28,902 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:28,902 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29312
+2026-09-10 02:00:32,362 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:32,362 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29376
+2026-09-10 02:00:35,675 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:35,675 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29440
+2026-09-10 02:00:38,903 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:38,903 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29504
+2026-09-10 02:00:42,358 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:42,359 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29568
+2026-09-10 02:00:45,971 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:45,971 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29632
+2026-09-10 02:00:49,841 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:49,841 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29696
+2026-09-10 02:00:53,540 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:53,540 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29760
+2026-09-10 02:00:56,897 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:00:56,897 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29824
+2026-09-10 02:01:00,386 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:00,386 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29888
+2026-09-10 02:01:03,920 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:03,920 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 29952
+2026-09-10 02:01:07,618 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:07,618 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30016
+2026-09-10 02:01:11,225 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:11,225 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30080
+2026-09-10 02:01:14,984 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:14,984 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30144
+2026-09-10 02:01:19,128 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:19,128 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30208
+2026-09-10 02:01:22,859 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:22,859 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30272
+2026-09-10 02:01:26,554 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:26,554 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30336
+2026-09-10 02:01:31,508 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:31,508 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30400
+2026-09-10 02:01:35,036 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:35,036 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30464
+2026-09-10 02:01:38,373 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:38,373 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30528
+2026-09-10 02:01:41,777 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:41,777 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30592
+2026-09-10 02:01:45,370 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:45,370 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30656
+2026-09-10 02:01:48,987 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:48,987 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30720
+2026-09-10 02:01:52,644 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:52,644 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30784
+2026-09-10 02:01:56,035 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:56,035 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30848
+2026-09-10 02:01:59,439 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:01:59,439 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30912
+2026-09-10 02:02:03,050 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:03,050 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 30976
+2026-09-10 02:02:06,407 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:06,407 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31040
+2026-09-10 02:02:10,038 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:10,038 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31104
+2026-09-10 02:02:13,565 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:13,565 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31168
+2026-09-10 02:02:17,250 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:17,250 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31232
+2026-09-10 02:02:20,812 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:20,812 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31296
+2026-09-10 02:02:24,259 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:24,259 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31360
+2026-09-10 02:02:27,922 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:27,922 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31424
+2026-09-10 02:02:31,391 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:31,391 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31488
+2026-09-10 02:02:35,075 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:35,075 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31552
+2026-09-10 02:02:38,633 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:38,633 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31616
+2026-09-10 02:02:42,334 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:42,334 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31680
+2026-09-10 02:02:46,193 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:46,193 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31744
+2026-09-10 02:02:50,249 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:50,249 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31808
+2026-09-10 02:02:53,749 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:53,749 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31872
+2026-09-10 02:02:57,398 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:02:57,399 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 31936
+2026-09-10 02:03:01,175 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:01,175 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32000
+2026-09-10 02:03:04,670 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:04,670 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32064
+2026-09-10 02:03:08,010 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:08,010 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32128
+2026-09-10 02:03:11,423 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:11,423 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32192
+2026-09-10 02:03:14,920 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:14,920 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32256
+2026-09-10 02:03:18,466 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:18,466 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32320
+2026-09-10 02:03:21,864 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:21,864 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32384
+2026-09-10 02:03:25,487 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:25,487 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32448
+2026-09-10 02:03:29,106 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:29,106 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32512
+2026-09-10 02:03:32,730 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:32,730 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32576
+2026-09-10 02:03:32,743 | Process-2 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-2 progress | Documents=60 | Chunks=11245
+2026-09-10 02:03:36,348 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:36,348 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32640
+2026-09-10 02:03:40,926 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:40,926 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32704
+2026-09-10 02:03:44,768 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:44,768 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32768
+2026-09-10 02:03:48,511 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:48,511 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32832
+2026-09-10 02:03:51,915 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:51,915 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32896
+2026-09-10 02:03:55,227 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:55,240 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 32960
+2026-09-10 02:03:58,673 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:03:58,673 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33024
+2026-09-10 02:04:02,341 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:02,341 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33088
+2026-09-10 02:04:05,587 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:05,587 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33152
+2026-09-10 02:04:08,940 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:08,940 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33216
+2026-09-10 02:04:12,373 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:12,373 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33280
+2026-09-10 02:04:16,358 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:16,358 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33344
+2026-09-10 02:04:19,910 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:19,910 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33408
+2026-09-10 02:04:23,451 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:23,451 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33472
+2026-09-10 02:04:27,086 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:27,086 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33536
+2026-09-10 02:04:30,838 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:30,838 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33600
+2026-09-10 02:04:34,443 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:34,443 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33664
+2026-09-10 02:04:38,115 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:38,115 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33728
+2026-09-10 02:04:41,840 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:41,840 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33792
+2026-09-10 02:04:45,178 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:45,178 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33856
+2026-09-10 02:04:48,844 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:48,844 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33920
+2026-09-10 02:04:52,139 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:52,139 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 33984
+2026-09-10 02:04:55,399 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:55,399 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34048
+2026-09-10 02:04:58,808 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:04:58,808 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34112
+2026-09-10 02:05:02,395 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:02,395 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34176
+2026-09-10 02:05:06,031 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:06,031 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34240
+2026-09-10 02:05:06,031 | Process-3 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-3 progress | Documents=60 | Chunks=11628
+2026-09-10 02:05:09,698 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:09,698 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34304
+2026-09-10 02:05:13,649 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:13,649 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34368
+2026-09-10 02:05:17,550 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:17,552 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34432
+2026-09-10 02:05:21,167 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:21,183 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34496
+2026-09-10 02:05:24,622 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:24,622 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34560
+2026-09-10 02:05:28,031 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:28,031 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34624
+2026-09-10 02:05:31,581 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:31,581 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34688
+2026-09-10 02:05:35,044 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:35,044 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34752
+2026-09-10 02:05:38,709 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:38,709 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34816
+2026-09-10 02:05:41,970 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:41,970 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34880
+2026-09-10 02:05:45,659 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:45,659 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 34944
+2026-09-10 02:05:49,825 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:49,825 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35008
+2026-09-10 02:05:53,588 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:53,601 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35072
+2026-09-10 02:05:57,084 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:05:57,084 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35136
+2026-09-10 02:06:00,568 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:00,568 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35200
+2026-09-10 02:06:04,250 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:04,250 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35264
+2026-09-10 02:06:08,003 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:08,003 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35328
+2026-09-10 02:06:11,678 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:11,678 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35392
+2026-09-10 02:06:15,390 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:15,390 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35456
+2026-09-10 02:06:19,169 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:19,169 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35520
+2026-09-10 02:06:22,650 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:22,650 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35584
+2026-09-10 02:06:26,196 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:26,196 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35648
+2026-09-10 02:06:29,816 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:29,816 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35712
+2026-09-10 02:06:33,464 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:33,464 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35776
+2026-09-10 02:06:37,169 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:37,169 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35840
+2026-09-10 02:06:40,430 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:40,430 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35904
+2026-09-10 02:06:44,061 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:44,061 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 35968
+2026-09-10 02:06:47,712 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:47,712 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36032
+2026-09-10 02:06:51,321 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:51,321 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36096
+2026-09-10 02:06:54,720 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:54,720 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36160
+2026-09-10 02:06:58,419 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:06:58,419 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36224
+2026-09-10 02:07:02,170 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:02,170 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36288
+2026-09-10 02:07:05,866 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:05,866 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36352
+2026-09-10 02:07:09,361 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:09,361 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36416
+2026-09-10 02:07:12,719 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:12,719 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36480
+2026-09-10 02:07:16,339 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:16,339 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36544
+2026-09-10 02:07:19,914 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:19,914 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36608
+2026-09-10 02:07:23,433 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:23,433 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36672
+2026-09-10 02:07:26,858 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:26,858 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36736
+2026-09-10 02:07:30,435 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:30,435 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36800
+2026-09-10 02:07:33,819 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:33,819 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36864
+2026-09-10 02:07:37,209 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:37,220 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36928
+2026-09-10 02:07:40,669 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:40,669 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 36992
+2026-09-10 02:07:44,117 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:44,117 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37056
+2026-09-10 02:07:44,117 | Process-4 | INFO | src.rag.pipelines.ingestion.ingest_data | Process-4 progress | Documents=60 | Chunks=12851
+2026-09-10 02:07:48,284 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:48,284 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37120
+2026-09-10 02:07:51,733 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:51,733 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37184
+2026-09-10 02:07:55,139 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:55,139 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37248
+2026-09-10 02:07:58,602 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:07:58,602 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37312
+2026-09-10 02:08:02,641 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:02,641 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37376
+2026-09-10 02:08:06,235 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:06,235 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37440
+2026-09-10 02:08:06,235 | Process-3 | INFO | src.rag.pipelines.ingestion.ingest_data | Chunking Completed Successfully by Process-3 , 
+                    document served 67 and chunks produced 12689
+2026-09-10 02:08:10,000 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:10,000 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37504
+2026-09-10 02:08:13,852 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:13,852 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37568
+2026-09-10 02:08:13,852 | Process-4 | INFO | src.rag.pipelines.ingestion.ingest_data | Chunking Completed Successfully by Process-4 , 
+                    document served 62 and chunks produced 13015
+2026-09-10 02:08:17,524 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:17,524 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37632
+2026-09-10 02:08:17,524 | Process-2 | INFO | src.rag.pipelines.ingestion.ingest_data | Chunking Completed Successfully by Process-2 , 
+                    document served 71 and chunks produced 12963
+2026-09-10 02:08:21,034 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:21,034 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37696
+2026-09-10 02:08:24,421 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:24,421 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37760
+2026-09-10 02:08:27,682 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:27,682 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37824
+2026-09-10 02:08:31,190 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:31,190 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37888
+2026-09-10 02:08:34,761 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:34,761 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 37952
+2026-09-10 02:08:38,274 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:38,274 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38016
+2026-09-10 02:08:41,662 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:41,662 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38080
+2026-09-10 02:08:45,647 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:45,647 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38144
+2026-09-10 02:08:49,313 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:49,313 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38208
+2026-09-10 02:08:53,009 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:53,009 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38272
+2026-09-10 02:08:57,176 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:08:57,176 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38336
+2026-09-10 02:09:00,658 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:09:00,658 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38400
+2026-09-10 02:09:04,063 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:09:04,063 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38464
+2026-09-10 02:09:07,888 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:09:07,888 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38528
+2026-09-10 02:09:11,615 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:09:11,615 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38592
+2026-09-10 02:09:15,052 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-10 02:09:15,052 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 38656
+2026-09-10 02:09:16,138 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 11 chunks inserted in Vector DB
+2026-09-10 02:09:16,138 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk processing completed | Total chunks stored=38667
+2026-09-15 02:01:10,184 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:01:10,202 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=41544)
+2026-09-15 02:01:10,213 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=39076)
+2026-09-15 02:01:10,222 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=25460)
+2026-09-15 02:01:10,233 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:01:27,324 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:01:27,441 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:01:27,604 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:01:27,755 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:01:27,905 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:01:28,072 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:01:28,220 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:01:28,401 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:01:28,578 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:01:28,748 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:01:28,787 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:06:23,247 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:06:23,267 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=8820)
+2026-09-15 02:06:23,280 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=21808)
+2026-09-15 02:06:23,291 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=43980)
+2026-09-15 02:06:23,303 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:06:37,251 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:06:37,347 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:06:37,467 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:06:37,605 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:06:37,752 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:06:37,872 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:06:38,013 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:06:38,182 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:06:38,343 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:06:38,494 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:06:38,526 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:10:33,190 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:10:33,203 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=11380)
+2026-09-15 02:10:33,220 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=43400)
+2026-09-15 02:10:33,231 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=23052)
+2026-09-15 02:10:33,243 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:10:48,074 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:10:48,165 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:10:48,305 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:10:48,510 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:10:48,674 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:10:48,803 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:10:48,922 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:10:49,048 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:10:49,163 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:10:49,294 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:10:49,327 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:16:17,603 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:16:17,603 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=33884)
+2026-09-15 02:16:17,620 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=46940)
+2026-09-15 02:16:17,630 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=29276)
+2026-09-15 02:16:17,640 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:16:30,386 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:16:30,481 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:16:30,609 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:16:30,747 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:16:30,895 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:16:31,139 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:16:31,345 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:16:31,510 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:16:31,663 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:16:31,769 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:16:31,800 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:21:28,616 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:21:28,622 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=16164)
+2026-09-15 02:21:28,637 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=33280)
+2026-09-15 02:21:28,649 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=34980)
+2026-09-15 02:21:28,656 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:21:42,326 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:21:42,425 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:21:42,551 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:21:42,734 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:21:42,957 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:21:43,118 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:21:43,277 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:21:43,405 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:21:43,536 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:21:43,639 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:21:43,668 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:23:32,965 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:23:32,981 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=29068)
+2026-09-15 02:23:32,991 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=42840)
+2026-09-15 02:23:32,995 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=14948)
+2026-09-15 02:23:33,011 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:23:45,447 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:23:45,557 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:23:45,689 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:23:45,811 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:23:45,962 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:23:46,094 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:23:46,312 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:23:46,470 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:23:46,618 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:23:46,758 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:23:46,786 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:26:59,773 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:26:59,797 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=3024)
+2026-09-15 02:26:59,804 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=21944)
+2026-09-15 02:26:59,818 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=8964)
+2026-09-15 02:26:59,825 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:27:18,595 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:27:18,691 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:27:18,806 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:27:18,963 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:27:19,125 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:27:19,247 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:27:19,367 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:27:19,485 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:27:19,624 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:27:19,767 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:27:19,802 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:32:31,392 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:32:31,410 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=43980)
+2026-09-15 02:32:31,417 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=8820)
+2026-09-15 02:32:31,429 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=35276)
+2026-09-15 02:32:31,439 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:32:43,476 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:32:43,609 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:32:43,750 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:32:43,878 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:32:44,070 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:32:44,234 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:32:44,398 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:32:44,559 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:32:44,730 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:32:44,848 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:32:44,876 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:33:04,458 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:33:04,461 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 64
+2026-09-15 02:33:25,529 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:33:25,529 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 128
+2026-09-15 02:33:47,645 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:33:47,645 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 192
+2026-09-15 02:34:09,344 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:34:09,344 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 256
+2026-09-15 02:34:30,681 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:34:30,681 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 320
+2026-09-15 02:34:51,591 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:34:51,591 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 384
+2026-09-15 02:35:15,949 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:35:15,961 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 448
+2026-09-15 02:35:38,986 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:35:38,986 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 512
+2026-09-15 02:36:02,640 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:36:02,640 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 576
+2026-09-15 02:37:10,850 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=RAG10
+2026-09-15 02:37:10,853 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=12448)
+2026-09-15 02:37:10,867 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=29104)
+2026-09-15 02:37:10,879 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=4840)
+2026-09-15 02:37:10,888 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-15 02:37:22,769 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-15 02:37:22,877 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-15 02:37:23,005 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-15 02:37:23,178 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-15 02:37:23,418 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-15 02:37:23,621 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-15 02:37:23,802 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-15 02:37:24,001 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-15 02:37:24,204 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-15 02:37:24,332 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-15 02:37:24,361 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-15 02:37:46,374 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-15 02:37:46,375 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 64
+2026-09-16 23:19:14,769 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=podcast_rag
+2026-09-16 23:19:14,779 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=18048)
+2026-09-16 23:19:14,791 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=18588)
+2026-09-16 23:19:14,801 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=3004)
+2026-09-16 23:19:14,814 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-16 23:19:30,147 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-16 23:19:30,331 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-16 23:19:30,469 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-16 23:19:30,665 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-16 23:19:30,892 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-16 23:19:31,123 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-16 23:19:31,292 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-16 23:19:31,446 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-16 23:19:31,614 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-16 23:19:31,838 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-16 23:19:31,944 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-16 23:19:54,462 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-16 23:19:54,462 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 64
+2026-09-16 23:20:17,554 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-16 23:20:17,555 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 128
+2026-09-16 23:20:36,747 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-16 23:20:36,747 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 192
+2026-09-16 23:37:11,330 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Starting ingestion | Chunk Workers=3 | Collection=podcast_rag
+2026-09-16 23:37:11,346 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-1 started (PID=17844)
+2026-09-16 23:37:11,360 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-2 started (PID=16028)
+2026-09-16 23:37:11,370 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Chunk Worker-3 started (PID=6300)
+2026-09-16 23:37:11,375 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Loader process started
+2026-09-16 23:37:23,076 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 20 number of document loaded till now
+2026-09-16 23:37:23,179 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 40 number of document loaded till now
+2026-09-16 23:37:23,324 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 60 number of document loaded till now
+2026-09-16 23:37:23,455 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 80 number of document loaded till now
+2026-09-16 23:37:23,676 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 100 number of document loaded till now
+2026-09-16 23:37:23,847 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 120 number of document loaded till now
+2026-09-16 23:37:24,013 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 140 number of document loaded till now
+2026-09-16 23:37:24,161 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 160 number of document loaded till now
+2026-09-16 23:37:24,278 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 180 number of document loaded till now
+2026-09-16 23:37:24,391 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | 200 number of document loaded till now
+2026-09-16 23:37:24,416 | Process-1 | INFO | src.rag.pipelines.ingestion.ingest_data | All documents are loaded!
+2026-09-16 23:37:45,044 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-16 23:37:45,044 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 64
+2026-09-16 23:38:04,996 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-16 23:38:04,996 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 128
+2026-09-16 23:38:25,379 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-16 23:38:25,381 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 192
+2026-09-16 23:38:44,182 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | 64 chunks inserted in Vector DB
+2026-09-16 23:38:44,187 | MainProcess | INFO | src.rag.pipelines.ingestion.ingest_data | Total chunks stored: 256

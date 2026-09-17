@@ -22,7 +22,8 @@ def create_qdrant_client() -> QdrantClient:
     client=QdrantClient(
         url=os.getenv("QDRANT_URL"),
         api_key=os.getenv("QDRANT_API_KEY"),
-        cloud_inference=True
+        cloud_inference=True,
+        timeout=120
     )
 
     return client

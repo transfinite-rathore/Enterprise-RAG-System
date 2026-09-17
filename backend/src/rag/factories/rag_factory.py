@@ -60,11 +60,11 @@ def create_rag_orchestrator() -> Tuple[VectorStoreInterface,RAGOrchestrator]:
         vs=vector_store,
         searching_rule=search_strategy,
         collection_name=config["collection_name"],
-        top_k=10
+        top_k=30
     )
 
     reranking_strategy = CrossEncoderReranker(get_config()["paths"]["cross_encoder_path"])
-    reranker = Reranker(reranking_strategy)
+    reranker = Reranker(reranking_strategy,top_k=10)
     validator=QueryValidator([EmptyQueryValidator(),PrintableCharacterValidator()])
     corrector=QueryCorrecter([TrimWhitespaceRule(),CollapseSpacesRule(),RemoveRepeatedPunctuationRule()])
     rewriter=LLMQueryRewriter(llm_model)

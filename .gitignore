@@ -10,6 +10,8 @@ env*/
 
 # Local Configuration Files
 backend/src/config/rag_config.yaml
-backend/rag_results/*.json
+backend/rag_results2
 backend/src/models*
 backend/src/notebooks*
+
+project_summary.txt*

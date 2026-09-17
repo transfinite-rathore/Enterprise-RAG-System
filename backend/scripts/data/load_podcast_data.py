@@ -9,6 +9,7 @@ from src.rag.pipelines.embedder.dense_embedder import DenseEmbedderProvider
 from src.rag.pipelines.ingestion.data_processing.normalize_whitespace import NormalizeWhiteSpaceRule
 from src.rag.pipelines.ingestion.data_processing.remove_phrase import RemovePhrase
 from src.config.qdrant_client import create_qdrant_async_client
+from src.config.qdrant_client import create_qdrant_client
 from src.rag.factories.vectorstore.VectorStoreFactory import VSFactory
 from src.rag.pipelines.ingestion.ingest_data import IngestionPipeline
 from src.config.logging_config import set_logger
@@ -38,7 +39,7 @@ async def main():
     cleaners=[RemovePhrase("Transcript:   (disclaimer: may contain unintentionally confusing, inaccurate and/or amusing transcription errors)")
               ,NormalizeWhiteSpaceRule()]
 
-    vs_client=create_qdrant_async_client()
+    vs_client=create_qdrant_async_client()        #create_qdrant_client()
     vector_store=VSFactory(vs_client).create_vector_store()
 
     await vector_store.create_collection()
@@ -51,7 +52,7 @@ async def main():
  
 if __name__=="__main__":   
     asyncio.run(main())
-    
+    # main()
 
 
 

@@ -46,19 +46,19 @@ async def run_evaluation():
     payload = result_store.load(
         run_id
     )
-    # # 3. Instantiate the payload (Pydantic will auto-convert the dictionaries)
-    # # payload = RAGEvaluationPayload(**file)
-    # # print(f"Successfully loaded payload for query: {payload}")
+    # 3. Instantiate the payload (Pydantic will auto-convert the dictionaries)
+    # payload = RAGEvaluationPayload(**file)
+    # print(f"Successfully loaded payload for query: {payload}")
     
-    # judge=create_LLM_judge()
+    judge=create_LLM_judge()
     
-    # # 6. Run the judge using the updated method signature
-    # print("Evaluating chunks...")
-    # verdicts = await judge.judge_chunks(
-    #     human_answer=ans,
-    #     payload=payload
-    # )
-    # RelevanceVerdictFileSave().save_file(run_id,verdicts)
+    # 6. Run the judge using the updated method signature
+    print("Evaluating chunks...")
+    verdicts = await judge.judge_chunks(
+        human_answer=ans,
+        payload=payload
+    )
+    RelevanceVerdictFileSave().save_file(run_id,verdicts)
     
     
 ######################################################################

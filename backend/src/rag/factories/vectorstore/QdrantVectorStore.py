@@ -31,17 +31,17 @@ class QdrantVectorStore(VectorStoreInterface):
 
     def create_collection(self):
         collection_name = self.ingestion_config["collection_name"]
-        if not self.collection_exists(collection_name):
+        if not self.collection_exist(collection_name):
             self.client.create_collection(
                 collection_name=collection_name,
                 vectors_config={
-                    self.ingestion_config["dense_model_name"]: VectorParams(
+                    self.ingestion_config["dense_vector_name"]: VectorParams(
                         size=self.ingestion_config["dense_vector_size"],
                         distance=self.ingestion_config["dense_vector_distance"]
                     )
                 },
                 sparse_vectors_config={
-                    self.ingestion_config["sparse_model_name"]: SparseVectorParams()
+                    self.ingestion_config["sparse_vector_name"]: SparseVectorParams()
                 }
             )
             logger.info("New Collection created!")

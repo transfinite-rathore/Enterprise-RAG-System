@@ -1,4 +1,5 @@
 import uuid
+import time
 from datetime import datetime
 from ...config.config_manager import get_config
 from ..model.user_query import UserQuery
@@ -32,12 +33,20 @@ class RAGOrchestrator:
             conversation_id=conv_id,
             user_id=user_id
         )
+        print("Process started")
+        process_starting_time=time.perf_counter()
         processed_query_context=self.query_processor.preprocess(query_context)
+        print("processing done")
+        query_processing_time=time.perf_counter()
         documents=self.retriever.retrieve(processed_query_context)
-
+        retrieval_time=time.perf_counter()
+        print("reterival done")
         reranked_context=self.reranker.rerank(processed_query_context,documents)
-
+        reranking_time=time.perf_counter()
+        print("reranking done")
         response=self.result_generator.generate(processed_query_context,reranked_context)
+        response_time=time.perf_counter()
+        print("response done")
         
         rag_result=RAGResult(
             query=query,
@@ -46,8 +55,15 @@ class RAGOrchestrator:
             retrieved_result=documents,
             reranked_result=list(reranked_context),
             response_result=response,
-            metadata={"starting_time":start_time,
-                      "completion_time":datetime.now()}
+            metadata={
+                      "starting_time":start_time,
+                      "query_preprocessing_latency":query_processing_time-process_starting_time,
+                      "retrieval_latency":retrieval_time-query_processing_time,
+                      "reranking_latency":reranking_time-retrieval_time,
+                      "generation_latency":reranking_time-response_time,
+                      "total_execution_time":response_time-query_processing_time,
+                      "completion_time":datetime.now()
+                      }
                   )
         manifest_details={
             "dense_embedding_model":get_config()["models"]["dense_embedding_model"],
@@ -62,9 +78,9 @@ class RAGOrchestrator:
             
             
         }
-        self.result_saver.save(rag_result=rag_result,manifest_details=manifest_details)
+        run_id=self.result_saver.save(rag_result=rag_result,manifest_details=manifest_details)
         
-        return response
+        return run_id,response
         
         # return response
         

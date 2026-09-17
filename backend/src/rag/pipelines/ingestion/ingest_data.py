@@ -5,7 +5,7 @@ from .data_processing.data_processing_rule import DataCleaningRule
 from .validation.ValidationRule import DocumentValidationRule
 from multiprocessing import Queue,Process,current_process
 from ....config.config_manager import get_config
-
+import time
 logger=set_logger(__name__,get_config()["ingestion"]["logging_file_path"])
 
 # logger= logging.getLogger(__name__)
@@ -93,40 +93,102 @@ class IngestionPipeline:
         self.document_queue=Queue(maxsize=1000)
         self.chunking_queue=Queue(maxsize=1000)
         self.chunking_worker=chunking_worker
-        self.network_semaphore = asyncio.Semaphore(5)
         
     async def flush_batch(self, batch, collection_name):
-        
         dense_embeddings = self.den_embedder.embed_document(batch)
-        sparse_embeddings=self.sp_embedder.embed_document(batch)
-        try:
-            async with self.network_semaphore:
+        sparse_embeddings = self.sp_embedder.embed_document(batch)
+
+        max_attempts = 3
+        retry_delay = 2
+
+        for attempt in range(1, max_attempts + 1):
+            try:
                 await self.vector_store.save_documents(
                     dense_embeddings=dense_embeddings,
                     sparse_embeddings=sparse_embeddings,
                     collection_name=collection_name,
                     chunks=batch,
                 )
-            
-            logger.info(f"{len(batch)} chunks inserted in Vector DB")
-            batch.clear()
-        except Exception as e:
-            logger.warning(
-                "Qdrant insertion failed | attempt=%d/%d | "
-                "retrying in %ds | error=%s",
-                e
-            )
-    async def process_chunk_queue(self, collection_name, batch_size=64):
+
+                logger.info(
+                    "Qdrant insertion successful | chunks=%d | attempt=%d",
+                    len(batch),
+                    attempt,
+                )
+
+                batch.clear()
+                return
+
+            except Exception as e:
+                logger.warning(
+                    "Qdrant insertion failed | attempt=%d/%d | "
+                    "retrying in %ds | error=%s",
+                    attempt,
+                    max_attempts,
+                    retry_delay,
+                    e,
+                )
+
+                if attempt == max_attempts:
+                    logger.exception(
+                        "Qdrant insertion permanently failed | chunks=%d",
+                        len(batch),
+                    )
+                    raise
+
+                time.sleep(retry_delay)
+
+    # def flush_batch(self, batch, collection_name):
+    #     dense_embeddings = self.den_embedder.embed_document(batch)
+    #     sparse_embeddings = self.sp_embedder.embed_document(batch)
+
+    #     max_attempts = 3
+    #     retry_delay = 2
+
+    #     for attempt in range(1, max_attempts + 1):
+    #         try:
+    #             self.vector_store.save_documents(
+    #                 dense_embeddings=dense_embeddings,
+    #                 sparse_embeddings=sparse_embeddings,
+    #                 collection_name=collection_name,
+    #                 chunks=batch,
+    #             )
+
+    #             logger.info(
+    #                 "Qdrant insertion successful | chunks=%d | attempt=%d",
+    #                 len(batch),
+    #                 attempt,
+    #             )
+
+    #             batch.clear()
+    #             return
+
+    #         except Exception as e:
+    #             logger.warning(
+    #                 "Qdrant insertion failed | attempt=%d/%d | "
+    #                 "retrying in %ds | error=%s",
+    #                 attempt,
+    #                 max_attempts,
+    #                 retry_delay,
+    #                 e,
+    #             )
+
+    #             if attempt == max_attempts:
+    #                 logger.exception(
+    #                     "Qdrant insertion permanently failed | chunks=%d",
+    #                     len(batch),
+    #                 )
+    #                 raise
+
+    #             time.sleep(retry_delay)
+    
+    async def process_chunk_queue(self, collection_name, batch_size=32):
         finished_workers = self.chunking_worker
         batch = []
         stored_chunks = 0
         
         while True:
-            # logger.info(
-            #     "document_queue size=%s | chunking_queue size=%s",
-            #     self.document_queue.qsize(),
-            #     self.chunking_queue.qsize(),
-            # )
+
             chunk = self.chunking_queue.get()
             if chunk is None:
                 finished_workers -= 1

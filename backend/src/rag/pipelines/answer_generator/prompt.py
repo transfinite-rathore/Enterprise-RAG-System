@@ -16,6 +16,7 @@ RETRIEVED CONTEXT:
 
 INSTRUCTIONS:
 1. Answer the user's query directly and clearly.
+3. No matter what is the situation never go outsid the retrieved context
 2. Use the retrieved context as the source of truth.
 3. Do not use information that is not supported by the [This Rule can't be broken].
 4. If the context does not contain enough information to answer the question,

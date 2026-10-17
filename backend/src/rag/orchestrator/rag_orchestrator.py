@@ -1,6 +1,7 @@
 import uuid
 import time
 from datetime import datetime
+from typing import Optional
 from ...config.config_manager import get_config
 from ..model.user_query import UserQuery
 from ..model.rag_result import RAGResult
@@ -13,8 +14,8 @@ from ..pipelines.resultstore.result_store import RAGResultStore
 class RAGOrchestrator:
     
     def __init__(self,query_processor:QueryPipeline,
-                 retriever:Retriever,reranker:Reranker,
-                 result_generator:AnswerGenerator,result_saver:RAGResultStore):
+                 retriever:Retriever,result_generator:AnswerGenerator,
+                 result_saver:RAGResultStore,reranker:Optional[Reranker]=None):
 
         self.query_processor=query_processor
         self.retriever=retriever
@@ -41,10 +42,15 @@ class RAGOrchestrator:
         documents=self.retriever.retrieve(processed_query_context)
         retrieval_time=time.perf_counter()
         print("reterival done")
-        reranked_context=self.reranker.rerank(processed_query_context,documents)
-        reranking_time=time.perf_counter()
-        print("reranking done")
-        response=self.result_generator.generate(processed_query_context,reranked_context)
+        if self.reranker:
+            final_documents=self.reranker.rerank(processed_query_context,documents)
+            reranking_time=time.perf_counter()
+            saved_reranked_result=list(final_documents)
+            print("reranking done")
+        else:
+            final_documents=documents
+            saved_reranked_result=[]
+        response=self.result_generator.generate(processed_query_context,final_documents)
         response_time=time.perf_counter()
         print("response done")
         
@@ -53,14 +59,14 @@ class RAGOrchestrator:
             user_id=user_id,
             conversation_id=conv_id,
             retrieved_result=documents,
-            reranked_result=list(reranked_context),
+            reranked_result=saved_reranked_result,
             response_result=response,
             metadata={
                       "starting_time":start_time,
                       "query_preprocessing_latency":query_processing_time-process_starting_time,
                       "retrieval_latency":retrieval_time-query_processing_time,
                       "reranking_latency":reranking_time-retrieval_time,
-                      "generation_latency":reranking_time-response_time,
+                      "generation_latency":response_time-reranking_time,
                       "total_execution_time":response_time-query_processing_time,
                       "completion_time":datetime.now()
                       }
@@ -71,9 +77,9 @@ class RAGOrchestrator:
             "collection_name":self.retriever.collection_name,
             "retrieval_strategy":self.retriever.__class__.__name__,
             "retrieval_top_k":self.retriever.top_k,
-            "reranker_rule":self.reranker.rerank_rule.__class__.__name__,
+            "reranker_rule":self.reranker.rerank_rule.__class__.__name__ if self.reranker else None,
             "reranker_model":get_config()["models"]["reranker"],
-            "reranker_top_k":self.reranker.top_k,
+            "reranker_top_k":getattr(self.reranker,"top_k",None),
             "generator": get_config()["llm"]["provider"][get_config()["llm"]["active_provider"]]["model_name"]
             
             

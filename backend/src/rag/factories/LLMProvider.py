@@ -1,8 +1,10 @@
 from .chatmodel.OpenRouterLLM import OpenRouterLLM
+from .chatmodel.GroqLLM import GroqLLM
 from ..model.llm_config import LLMConfig
 
 LLM_REGISTRY={
-    "open_router":OpenRouterLLM
+    "open_router":OpenRouterLLM,
+    "groq":GroqLLM
 }
 
 class ChatModelProvider:

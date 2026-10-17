@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from typing import Iterable
 from .prompt_builder import PromptBuilder
 from ...model.reranked_context import RerankContext
+from ...model.retrieved_document import RetrievedDocument
 from ...model.query_context import QueryContext
 from .prompt import ANSWER_PROMPT
 from ...model.response_context import ResponseContext
@@ -21,7 +22,7 @@ class AnswerGenerator:
 
 
         
-    def generate(self,query:QueryContext,context:Iterable[RerankContext]):
+    def generate(self,query:QueryContext,context:Iterable[RetrievedDocument]) -> ResponseContext:
         prompt=PromptBuilder().build(prompt=ANSWER_PROMPT,query=query,contexts=context)
         
         response=self.chat_model.invoke(prompt)

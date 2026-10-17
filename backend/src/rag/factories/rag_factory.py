@@ -29,6 +29,7 @@ from ..pipelines.resultstore.file_result_store import RAGFileResultStore
 from  ...config.config_manager import get_config
 
 def create_rag_orchestrator() -> Tuple[VectorStoreInterface,RAGOrchestrator]:
+    
     ## LLM Model Setup
     llm=get_config()["llm"]
     active_provider_name = llm["active_provider"]
@@ -43,9 +44,7 @@ def create_rag_orchestrator() -> Tuple[VectorStoreInterface,RAGOrchestrator]:
     temperature=provider_settings["temperature"]   # 0.5
 )
     config=get_config()["ingestion"]
-    # llm=get_config()["llm"]["active_provider"]
-    
-    # llm_config=LLMConfig(provider=llm["provider"],model_name=llm["model_name"],temperature=llm["temperature"])
+
     llm_model=ChatModelProvider(llm_config).get_model()
     
     dense_embedder=DenseEmbedderProvider()
@@ -64,7 +63,7 @@ def create_rag_orchestrator() -> Tuple[VectorStoreInterface,RAGOrchestrator]:
     )
 
     reranking_strategy = CrossEncoderReranker(get_config()["paths"]["cross_encoder_path"])
-    reranker = Reranker(reranking_strategy,top_k=10)
+    reranker = Reranker(reranking_strategy,top_k=5)
     validator=QueryValidator([EmptyQueryValidator(),PrintableCharacterValidator()])
     corrector=QueryCorrecter([TrimWhitespaceRule(),CollapseSpacesRule(),RemoveRepeatedPunctuationRule()])
     rewriter=LLMQueryRewriter(llm_model)

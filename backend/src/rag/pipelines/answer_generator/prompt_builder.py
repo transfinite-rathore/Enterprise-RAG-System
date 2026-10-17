@@ -1,12 +1,13 @@
 from ...model.query_context import QueryContext
 from ...model.reranked_context import RerankContext
+from ...model.retrieved_document import RetrievedDocument
 from typing import Iterable
 from ...prompt_builder.base import IPromptBuilder
 # from base import IPromptBuilder
 
 class PromptBuilder(IPromptBuilder):
 
-    def build(self,prompt:str,contexts:Iterable[RerankContext],query:QueryContext) -> str:
+    def build(self,prompt:str,contexts:Iterable[RetrievedDocument],query:QueryContext) -> str:
         
         context_text= "/n/n".join([
             f"[ Document id : {context.metadata['document_id']} /n]"

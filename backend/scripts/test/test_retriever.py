@@ -44,9 +44,9 @@ class RAGEvaluationRunner:
         self.vector_store, self.rag = create_rag_orchestrator()
 
         # Create stores only once
-        self.result_store = RAGFileResultStore()
-        self.verdict_store = RelevanceVerdictFileSave()
-        self.evaluation_store = EvaluationFileSave()
+        self.result_store = RAGFileResultStore(base_dir="rag_evals")
+        self.verdict_store = RelevanceVerdictFileSave(dir_path="rag_evals")
+        self.evaluation_store = EvaluationFileSave(dir_path="rag_evals")
 
         # Create judge only once
         self.judge = create_LLM_judge()
@@ -197,13 +197,13 @@ async def run_eval():
 
     try:
 
-        for i in range(min(20, len(evaluation_data))):
+        for i in range(min(5, len(evaluation_data))):
 
             query = evaluation_data.iloc[i]["question"]
             human_answer = evaluation_data.iloc[i]["human_answer"]
 
             print("\n" + "=" * 70)
-            print(f"Evaluation {i + 1}/20")
+            print(f"Evaluation {i + 1}/5")
             print(f"Query: {query}")
             print("=" * 70)
 

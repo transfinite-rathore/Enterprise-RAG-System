@@ -60,7 +60,7 @@ The primary goal was to develop a deeper understanding of **RAG systems while ap
                                │
                                ▼
                     ┌─────────────────────┐
-                    │     Reranking       │
+                    │  Reranking(Optional)│
                     │   Cross Encoder     │
                     └──────────┬──────────┘
                                │
@@ -160,8 +160,13 @@ Evaluation includes retrieval metrics such as:
 * **Precision@K**
 * **Recall@K**
 * **HitRate@K**
+* **MRR**
+* **NDCG@K**
 
 Generation quality can additionally be evaluated using reference answers and LLM-based evaluation where appropriate.
+* **Faithfulness (Groundedness)**
+* **Answer Relevance**
+* **Correctness**
 
 ---
 
